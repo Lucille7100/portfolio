@@ -1,3 +1,23 @@
-
-    
+nav ul {
+    list-style-type:  none;
+    background-color: beige;
   
+}
+
+header img {
+    height: 600px;
+    width: 700px;
+
+}
+
+header h1 {
+    text-align: center;
+}
+
+header p {
+    text-align: center;
+}
+
+.background, .goals {
+    background-color: grey;
+}
