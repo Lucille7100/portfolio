@@ -1,51 +1,54 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <title>Franz's Profile</title>
+  <meta charset="utf-8">
+  <title>Jane Smith's Profile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-</head>
-</body>
-    <nav> 
-      <div>
-        <ul>
-          <li>Lucille Franz</li>
-          <li>Home</li>
-          <li><a href="experience.html">Experience</a></li>
-        </ul>
-      </div>
-    </nav>
+  <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
+  <body>
 
-    <header> <img src="images/coconutTrees.jpg">
-      <div> 
-        <h1>Hello, I'm Franz.</h1>
-        <p>My home is Cebu, Philippines.</p>
-      </div>
+    <div class="main-nav">
+        <ul class="nav">
+          <li class="name">Franz</li>
+          <li><a href="#">Home</a></li>
+          <li><a href="board.html">Board</a></li>
+          <li><a href="playlist.html">Playlist</a></li>
+        </ul>
+    </div>
+
+    <header>
+      <img src="images/profile pic.jpg" alt="The character ghost in Spirited Away" class="profile-image">
+      <h1 class="tag name">Kamusta, I’m Franz.</h1>
+      <p class="tag location">My home is Cebu, Philippines.</p>
     </header>
 
-    <main>
-      <div class="background">
-        <h3>Background</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut risus non lectus scelerisque aliquam eu quis diam. Sed aliquam euismod volutpat. Mauris sit amet nulla a nisl interdum volutpat. Quisque eleifend, lectus sit amet mollis fermentum, velit risus eleifend est, sed condimentum lacus dolor a sem.</p>
-      </div>
+    <main class="flex">
+      <div class="card">
+        <h2>Background</h2>
+        <p>I've been teaching myself software development for the past two years, but I'm still working on getting to the point where I can create a website. At work, I like to play around with Excel spreadsheets and webhooks to make things easier for my coworkers and me.</p>
+        <p>I work in real estate, and the coding resources I've found have really helped me build a problem-solving mindset.</p>
+      </div> 
 
-      <div class="goals">
-        <h3>Goals</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut risus non lectus scelerisque aliquam eu quis diam. Sed aliquam euismod volutpat. Mauris sit amet nulla a nisl interdum volutpat. Quisque eleifend, lectus sit amet mollis fermentum, velit risus eleifend est, sed condimentum lacus dolor a sem.</p>
-          <div>
-            <p>html</p>
-            <p>CSS</p>
-            <p>Javascipt</p>
-            <p>Ruby</p>
-            <p>Rails</p>
-          </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut risus non lectus scelerisque aliquam eu quis diam. Sed aliquam euismod volutpat. Mauris sit amet nulla a nisl interdum volutpat. Quisque eleifend, lectus sit amet mollis fermentum, velit risus eleifend est, sed condimentum lacus dolor a sem.</p>
-      </div>
-     
+      <div class="card">
+        <h2>Goals</h2>
+        <p>I want to build a career that lets me help others achieve their vision. Mastering the following skills will be my stepping stone to making this happen.</p>
+        <ul class="skills">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Ruby</li>
+          <li>Rails</li>
+        </ul>
+        <p>Ultimately, I want to create something that helps people skip the most mundane tasks.</p>
+      </div> 
+
     </main>
-
     <footer>
-      <p>Copyright 2024, Franz</p>
+      <ul>
+        <li><a href="https://github.com/Lucille7100/portfolio" class="social github">Github</a></li>
+      </ul>
+      <p class="copyright">Copyright 2024, Franz</p>
     </footer>
- 
-</body>
+  </body>
   </html>
