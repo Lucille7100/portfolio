@@ -32,9 +32,33 @@
     text-align: center;
   }
 
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  .nav .name {
+      display: block;
+      margin-right: auto;
+      color: white;
+  }
+  .nav li, .nav-board li {
+    padding: 5px 10px 10px 10px;
+  }
+  .nav a, .nav-board a {
+    transition: all .5s;
+  }
+  .nav a:hover, .nav-board a:hover {
+    color: white
+  }
+
   .main-nav-board {    
     width: 100%;
-    background: beige;
+    background: black;
     min-height: 30px;
     padding: 10px;
     position: fixed;
@@ -50,31 +74,7 @@
     padding: 0;
   }
   .board-li a {
-    color:  black;
-  }
-  
-  .nav {
-    display: flex;
-    justify-content: space-around;
-    font-weight: 700;
-    list-style-type: none;
-    margin: 0 auto;
-    padding: 0;
-  }
-  
-  .nav .name {
-      display: block;
-      margin-right: auto;
-      color: white;
-  }
-  .nav li {
-    padding: 5px 10px 10px 10px;
-  }
-  .nav a {
-    transition: all .5s;
-  }
-  .nav a:hover {
-    color: white
+    color: grey;
   }
   
   header {
@@ -98,6 +98,17 @@
   header .profile-image:hover {
     transform: scale(1.2) rotate(5deg);
   }
+
+  .board-header h1, p {
+   text-align: left;
+   margin: 20px;
+  }
+
+  .board-header img {
+    height: auto;
+    width: 400px;
+  }
+
   .tag {
     background-color: #efefef;
     color: black;
