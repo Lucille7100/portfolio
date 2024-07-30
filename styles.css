@@ -62,6 +62,14 @@ header {
   overflow: hidden;
   padding-top: 60px;
 }
+#playlist {
+  text-align: center;
+  background: url('images/playlist-logo.jpg') no-repeat top center;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
 header {
   line-height: 1.5;
 }
@@ -87,6 +95,11 @@ header .profile-image:hover {
 .location {
   background-color: #222;
   color: yellow;
+}
+.location2 {
+color: rgba(67, 67, 67, 0.723);
+background-color: white;
+font-size: 30px;
 }
 .card {
   margin: 30px;
