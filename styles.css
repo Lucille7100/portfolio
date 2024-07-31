@@ -114,7 +114,14 @@ font-size: 30px;
 .card:hover {
   border-color: #ff99ff;
 }
-
+.play-main {
+  display: block;
+}
+.play-main div {
+  display: flex;
+  text-align: left;
+  
+}
 ul.skills {
   padding: 0;
   text-align: center;
