@@ -117,10 +117,18 @@ font-size: 30px;
 .play-main {
   display: block;
 }
-.play-main div {
-  display: flex;
+.songs {
+  list-style: none;
   text-align: left;
-  
+  color: grey;
+}
+.songs a {
+  font-size: 18px;
+  color: black;
+}
+.songs a:hover {
+  color: steelblue;
+  font-size: 20px;
 }
 ul.skills {
   padding: 0;
