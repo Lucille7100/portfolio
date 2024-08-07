@@ -67,8 +67,16 @@ header {
   background: url('images/playlist-logo.jpg') no-repeat top center;
   background-size: cover;
   overflow: hidden;
-  padding-top: 200px;
-  padding-bottom: 50px;
+  padding-top: 10em;
+  padding-bottom: 10em;
+}
+#recipe {
+  text-align: center;
+  background: url('images/recipe.jpg') no-repeat top center;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 10em;
+  padding-bottom: 10em;
 }
 header {
   line-height: 1.5;
