@@ -11,6 +11,14 @@ body {
   color: #222;
   background: #f7f5f0;
 }
+#body-play {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background-color: black;
+}
 /* Link Styles */
 
 a {
@@ -31,6 +39,14 @@ a:hover {
   position: fixed;
   text-align: center;
 }
+.main-nav-sec {
+  width: 100%;
+  background: black;
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+}
 .nav {
   display: flex;
   justify-content: space-around;
@@ -39,19 +55,28 @@ a:hover {
   margin: 0 auto;
   padding: 0;
 }
+.nav-sec {
+  display: flex;
+  justify-content:left;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  
+}
 
 .nav .name {
     display: block;
     margin-right: auto;
     color: white;
 }
-.nav li {
+.nav li, .nav-sec li{
   padding: 5px 10px 10px 10px;
 }
 .nav a {
   transition: all .5s;
 }
-.nav a:hover {
+.nav a:hover, .nav-sec a:hover {
   color: white
 }
 
@@ -64,7 +89,7 @@ header {
 }
 #playlist {
   text-align: center;
-  background: url('images/playlist-logo.jpg') no-repeat top center;
+  background: url('images/playlist.jpg') no-repeat top center;
   background-size: cover;
   overflow: hidden;
   padding-top: 10em;
@@ -129,14 +154,24 @@ font-size: 30px;
   list-style: none;
   text-align: left;
   color: grey;
+  display: flex;
+  justify-content: space-evenly;
+  
 }
 .songs a {
   font-size: 18px;
-  color: black;
+  color: whitesmoke;
 }
 .songs a:hover {
   color: steelblue;
   font-size: 20px;
+}
+.top-songs img {
+  width: 150px;
+  height: 180px;
+}
+.top-songs li {
+  text-wrap: wrap;
 }
 ul.skills {
   padding: 0;
@@ -240,4 +275,3 @@ a.social:hover {
   }
 
 }
-
