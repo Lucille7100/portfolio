@@ -1,0 +1,3 @@
+[submodule "treehouse-recipe"]
+	path = treehouse-recipe
+	url = https://github.com/Lucille7100/treehouse-recipe.git
