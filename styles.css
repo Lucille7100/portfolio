@@ -11,14 +11,6 @@ body {
   color: #222;
   background: #f7f5f0;
 }
-#body-play {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  background-color: black;
-}
 /* Link Styles */
 
 a {
@@ -39,14 +31,6 @@ a:hover {
   position: fixed;
   text-align: center;
 }
-.main-nav-sec {
-  width: 100%;
-  background: black;
-  min-height: 30px;
-  padding: 10px;
-  position: fixed;
-  text-align: center;
-}
 .nav {
   display: flex;
   justify-content: space-around;
@@ -55,28 +39,19 @@ a:hover {
   margin: 0 auto;
   padding: 0;
 }
-.nav-sec {
-  display: flex;
-  justify-content:left;
-  font-weight: 700;
-  list-style-type: none;
-  margin: 0 auto;
-  padding: 0;
-  
-}
 
 .nav .name {
     display: block;
     margin-right: auto;
     color: white;
 }
-.nav li, .nav-sec li{
+.nav li {
   padding: 5px 10px 10px 10px;
 }
 .nav a {
   transition: all .5s;
 }
-.nav a:hover, .nav-sec a:hover {
+.nav a:hover {
   color: white
 }
 
@@ -86,22 +61,6 @@ header {
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
-}
-#playlist {
-  text-align: center;
-  background: url('images/playlist.jpg') no-repeat top center;
-  background-size: cover;
-  overflow: hidden;
-  padding-top: 10em;
-  padding-bottom: 10em;
-}
-#recipe {
-  text-align: center;
-  background: url('images/recipe.jpg') no-repeat top center;
-  background-size: cover;
-  overflow: hidden;
-  padding-top: 10em;
-  padding-bottom: 10em;
 }
 header {
   line-height: 1.5;
@@ -129,11 +88,6 @@ header .profile-image:hover {
   background-color: #222;
   color: yellow;
 }
-.location2 {
-color: rgba(67, 67, 67, 0.723);
-background-color: white;
-font-size: 30px;
-}
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -147,32 +101,7 @@ font-size: 30px;
 .card:hover {
   border-color: #ff99ff;
 }
-.play-main {
-  display: block;
-}
-.songs {
-  list-style: none;
-  text-align: left;
-  color: grey;
-  display: flex;
-  justify-content: space-evenly;
-  
-}
-.songs a {
-  font-size: 18px;
-  color: whitesmoke;
-}
-.songs a:hover {
-  color: steelblue;
-  font-size: 20px;
-}
-.top-songs img {
-  width: 150px;
-  height: 180px;
-}
-.top-songs li {
-  text-wrap: wrap;
-}
+
 ul.skills {
   padding: 0;
   text-align: center;
